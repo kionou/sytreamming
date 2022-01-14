@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(6, 6, 42);
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    
+    
+}
+/* #demo{
+    height: 500px;
+} */
+
+
+.parti1{
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+.reprendre{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.bnt{
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px ;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color:#00b2A9 ;
+    
+
+}
+.voir{
+    float: right;
+    margin-right: 10px;
+}
+.voir a {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.card{
+     display: flex;
+     
+    width: 300px;
+    height: 290px;
+
+}  
+
+
+.parti2{
+    /* padding: 0;
+    margin-top: 10px; */
+    /* width: 100%;
+    height: 200px; */
+    /* display: flex; 
+    flex-direction: column; */
+    
+
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+.resultat{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.slider{
+    display:-webkit-box;
+    width: 100%;
+    height: 300px;
+    
+    overflow: hidden;
+    overflow-x: scroll; 
+}
+.img-top{
+    width: 300px;
+    height: 290px; 
+
+
+}
+/* .btn btn-success{
+   
+} */
+
+.arrow{
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.control{
+    margin: 0 auto;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.arrow.prev{
+    left: 10px;
+    color: lawngreen;
+    width: 100px;
+}
+.arrow.next{
+    right: 10px;
+    color: lawngreen;
+
+}
